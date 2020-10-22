@@ -1,0 +1,149 @@
+/*CSS boiler style sheet*/
+/*body of page will be light-orange*/
+body{
+    background-color:#FFA42A;
+}
+
+
+.myGrid {
+  display: grid;
+    /* Creating grid tracks (rows and columns) */
+  grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 166px 166px 166px;
+/*  grid-gap: 20px; */
+  grid-gap: 20px;
+/* Center grid */
+    margin: 0 auto;
+        /*  margin: 0 auto is shorthand for setting the top and bottom margins to zero, and the left and right margins to auto. */
+      max-width: 790px;
+        /* Defines Max Width for grid. In this case
+        column width x 3 + grid-gap x 2*/
+}
+
+img {
+  max-width: 100%;
+  display: block;
+
+}
+.widecontainer {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+a{
+    text-decoration: none;
+}
+/*body parahraph is Quicksand*/
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: 7px;
+    color: black;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+
+    font-weight: 350;
+    font-size: 5em;
+    letter-spacing: 7px;
+    color: black;
+}
+
+
+h2{
+    font-family: 'Quicksand', sans-serif, bold;
+    text-align: center;
+    padding-top: 75px;"
+    font-weight: 300;
+    font-size: 4.5em;
+    letter-spacing: 7px;
+    color: black;
+}
+
+h2{
+    font-family: 'Georgia';
+    text-align: center;
+    padding-top: 25px;"
+    font-weight: 100;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    color: black;
+}
+
+img{
+    padding-top: 50px;
+    text-align:center;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    max-height: 500px;
+}
+
+li{
+    font-family: 'Quicksand', sans-serif, bold;
+    text-align: left;
+    padding-top: 15px;
+    font-weight: 200;
+    font-size: 1.0em;
+    letter-spacing: 7px;
+    color: black;
+}
+
+footer{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 150;
+    font-size: 1 em;
+    letter-spacing: 4px;
+    color: black;
+}
+    
+}
+
+.top_bar{
+    max-height: 400px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    display: block;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 150px;
+    margin: auto;
+}
+
+.navbar ul li{
+    font-family: 'Quicksand', Serif, bold;
+    color: black;
+    text-align: center;
+    font-weight: 250;
+    font-size: 2.5 em;
+    letter-spacing: 6px;
+    display: inline-block;
+    padding-right:10px;
+}
+
+
+.nav_pad{
+  padding-top:40px;
+  text-align: center;
+}
+
+.container
+{
+    max-width: 60vw;
+    margin: auto;
+}
+
